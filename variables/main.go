@@ -23,7 +23,7 @@ func main() {
 	)
 
 	const (
-		Read = 1 << iota  // << A bit operation
+		Read = 1 << iota // << A bit operation
 		Write
 		Execute
 	)
@@ -33,5 +33,5 @@ func main() {
 
 	println(Read, Write, Execute)
 	println(isEnable, name, id)
+	println(Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, hello, hubble)
 }
-
