@@ -1,6 +1,9 @@
 package main
 
-import "github.com/fatih/color"
+import (
+	"fmt"
+	"github.com/fatih/color"
+)
 
 //import (
 //	_ "os"
@@ -26,4 +29,6 @@ import "github.com/fatih/color"
 // go mod tidy // command to add missing and remove unused modules in your project.
 func main() {
 	color.Red("This text should appear in red color")
+	var n rune = '$'
+	fmt.Print(n)
 }
