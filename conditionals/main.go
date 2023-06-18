@@ -33,5 +33,4 @@ func main() {
 	default:
 		fmt.Println("Zero!")
 	}
-
 }

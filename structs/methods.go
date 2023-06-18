@@ -21,11 +21,11 @@ func (u User) DisplayUserInfo() string {
 }
 
 func main() {
-	spongebob := User{
+	spongeBob := User{
 		FirstName: "SpongeBob",
 		LastName:  "SquarePants",
 		Email:     "spongebob@krustykrab.bb",
 	}
 
-	fmt.Println(spongebob.DisplayUserInfo()) // here we call and print the method
+	fmt.Println(spongeBob.DisplayUserInfo()) // here we call and print the method
 }
