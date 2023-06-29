@@ -8,7 +8,7 @@ type Car struct {
 }
 
 func (car Car) DisplayCarInfo() string {
-	return fmt.Sprintf("brand: %s capaccity: %d", car.brand, car.capacity)
+	return fmt.Sprintf("brand: %s capacity: %d", car.brand, car.capacity)
 }
 
 type User struct {
