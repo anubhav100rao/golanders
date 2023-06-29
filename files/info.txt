@@ -1,0 +1,21 @@
+Every file has:
+    owner:
+        [user, group]
+    group:
+        [user, group]
+    permissions:
+        [read, write, execute]
+    permission-mode:
+        [--rw--r--, --rwxr-xr-x, --rwxrwxrwx, etc.]
+    size:
+        [bytes, kilobytes, megabytes, gigabytes]
+    date:
+        [created, modified, accessed]
+    name:
+        [file, directory]
+    path:
+        [absolute, relative]
+    type:
+        [file, directory, link]
+    link:
+        [absolute, relative]
