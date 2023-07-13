@@ -23,3 +23,28 @@ func main() {
 	fmt.Println("Last modified:", fileInfo.ModTime()) // Last modified: 2022-03-10 11:15:22 -0500 EST
 	fmt.Println("Is directory:", fileInfo.IsDir())
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

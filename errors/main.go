@@ -21,7 +21,7 @@ func main() {
 	if err != nil {
 		fmt.Printf("error running main.go: %s\n", err) // Print the wrapped error message
 
-		unwrappedErr := errors.Unwrap(err) // This line unwraps the error
+		unwrappedErr := errors.Unwrap(err)                // This line unwraps the error
 		fmt.Printf("unwrapped error: %s\n", unwrappedErr) // Print the original error message
 	}
 }
